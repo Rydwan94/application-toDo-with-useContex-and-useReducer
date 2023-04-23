@@ -1,0 +1,29 @@
+.taskForm {
+    padding: 30px;
+}
+
+.taskForm input {
+    background-color: #333333;
+    padding: 3px 0;
+    margin-right: 5px;
+    border: 1px solid black;
+}
+
+.taskForm input:focus {
+    background-color: #66757F;
+    color: white;
+}
+
+.taskForm button {
+    background-color: #292F33;
+    width: 60px;
+    padding: 3px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: .6s;
+}
+
+.taskForm button:hover {
+    background-color: #66757F;
+}

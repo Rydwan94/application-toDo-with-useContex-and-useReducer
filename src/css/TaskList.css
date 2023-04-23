@@ -1,0 +1,110 @@
+.TaskList {
+  width: 100%;
+}
+.TaskList ul {
+  background-color: #292f33;
+  padding: 20px 0;
+  font-size: 20px;
+}
+
+.TaskList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  word-break: break-all;
+  text-align: left;
+  padding: 10px 50px;
+  background-color: #55acee;
+  list-style: none;
+  margin: 10px 0;
+  border-radius: 5px;
+  color: white;
+}
+
+.taskInfoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.buttonGroup button {
+  border: none;
+  width: 100px;
+  padding: 5px;
+  font-size: 15px;
+  color: white;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+
+.buttonGroup button:nth-child(1) {
+  background-color: #ec0000;
+  margin-right: 2px;
+}
+.buttonGroup button:nth-child(2) {
+  background-color: #00c71e;
+}
+
+.buttonGroup button:hover:nth-child(1) {
+  background-color: #a90000;
+}
+
+.buttonGroup button:hover:nth-child(2) {
+  background-color: #009216;
+}
+
+.taskInfoContainer em {
+  font-size: 15px;
+}
+
+.taskPriority {
+  color: #f30202f9;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.taskInfoContainer label {
+  padding: 5px 0;
+}
+
+.taskInfoContainer input[type="checkbox"] {
+  margin-left: 5px;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.timeContainer {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: #074472;
+  padding: 5px;
+  border: 1px solid white;
+}
+
+@media (max-width: 767px) {
+
+  .TaskList li {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+  .TaskList p {
+    padding-bottom: 20px;
+  }
+  .timeContainer {
+    width: 100vw;
+    background-color: #074472;
+    padding: 5px;
+    text-align: center;
+    border-radius: 0;
+    
+  }
+}
