@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/application-toDo-with-useContex-and-useReducer/static/css/main.ef2f8206.css",
+    "main.js": "/application-toDo-with-useContex-and-useReducer/static/js/main.2c89dd93.js",
+    "index.html": "/application-toDo-with-useContex-and-useReducer/index.html",
+    "main.ef2f8206.css.map": "/application-toDo-with-useContex-and-useReducer/static/css/main.ef2f8206.css.map",
+    "main.2c89dd93.js.map": "/application-toDo-with-useContex-and-useReducer/static/js/main.2c89dd93.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef2f8206.css",
+    "static/js/main.2c89dd93.js"
+  ]
+}
